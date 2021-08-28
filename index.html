@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="eng.js"></script>  
+</head>
+<body>
+   <div id="background">
+   <img  class="card" src="./money (1).jpg" alt="">
+   </div>
+
+   <center>
+   <header>
+        <h1 id="heading">SIMPLE INTEREST CALCULATOR</h1>
+    </header>
+    
+    <div id="main-container">   
+    
+
+    <label for="p">Enter Principal Amount:</label>
+    <input type="number" id="p" step="any" /><br>
+   
+    <label for="rate">Enter the rate of interest: (R%):</label>
+    <input type="number" id="rate" min="0" step="any"/><br>
+    
+    <label for="time">Enter the time period(in years):</label>
+    <input type="number" id="time" min="0" step="any"/><br>
+   
+
+
+    <button id="submit-btn" onclick="cal_si(); fin_amnt();">Submit</button>
+    <button type="submit" onclick="window.location.reload()">Reset</button>
+
+    <p id="result"></p>
+    <p id="fin_amnt"></p>
+</div>
+</center>
+
+</body>
+</html>

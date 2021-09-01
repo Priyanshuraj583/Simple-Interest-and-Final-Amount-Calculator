@@ -17,12 +17,19 @@
 #heading{
     background-color:coral;
     font-style: oblique;
+    padding: 10px;
 }
 #main-container{
-    font-size: 200%;
+    font-size: 150%;
     padding: 10px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight:bold;
-    color:rgb(29, 2, 12);
+    font-size: 20px;
+font-style:oblique;
+font-weight:bolder;
+color: rgb(12, 3, 2);
+    
+     margin: 50px;
+     /* border: solid; */
+     box-sizing: content-box;
 }
-#submit-btn{size: 50px;}
+#submit-btn{size: 50px;margin: 20px;}
